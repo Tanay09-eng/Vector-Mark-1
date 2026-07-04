@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Database
+*.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

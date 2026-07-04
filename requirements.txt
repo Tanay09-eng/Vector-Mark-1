@@ -1,0 +1,31 @@
+# Vector AI v2 — Full Requirements
+# Install: pip install -r requirements.txt
+
+# ── Backend ───────────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+sqlalchemy>=2.0.0
+pydantic>=2.0.0
+python-multipart>=0.0.9
+
+# ── LLM (Ollama talks over HTTP — no extra package needed)
+
+# ── Voice ─────────────────────────────────────────────────────────────────────
+openai-whisper>=20231117
+edge-tts>=6.1.9
+pygame>=2.5.0
+sounddevice>=0.4.6
+scipy>=1.11.0
+
+# ── Tools ─────────────────────────────────────────────────────────────────────
+requests>=2.31.0
+python-dateutil>=2.9.0
+
+# ── Google Calendar ───────────────────────────────────────────────────────────
+google-api-python-client>=2.120.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+rich>=13.0.0

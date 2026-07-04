@@ -1,4 +1,4 @@
-# VECTOR AI v2
+# VECTOR AI Mark 1
 ### Your Personal J.A.R.V.I.S — Built Right
 ## Architecture
 
